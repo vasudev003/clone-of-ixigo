@@ -5,15 +5,14 @@ import MiddlePart from "./MiddlePart";
 import Footer from "./Footer";
 
 const LandingPage = () => {
-    return (
-        <div>
-            <Navbar />
-            {/* <br /><br /><br /><br /><br /> */}
-            <ImageSlider />
-            <MiddlePart />
-            <Footer />
-        </div>
-    );
+  return (
+    <div>
+      <Navbar />
+      <ImageSlider />
+      <MiddlePart />
+      <Footer />
+    </div>
+  );
 };
 
 export default LandingPage;
